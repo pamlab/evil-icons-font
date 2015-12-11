@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "evil-icons";
+    src: url('../fonts/evil-icons.woff2') format('woff2'),
+         url('../fonts/evil-icons.woff') format('woff'),
+         url('../fonts/evil-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    display: inline-block;
+    font-family: "evil-icons";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-archive:before { content: "\" }.icon-arrow-down:before { content: "\" }.icon-arrow-left:before { content: "\" }.icon-arrow-right:before { content: "\" }.icon-arrow-up:before { content: "\" }.icon-bell:before { content: "\" }.icon-calendar:before { content: "\" }.icon-camera:before { content: "\" }.icon-cart:before { content: "\" }.icon-chart:before { content: "\" }.icon-check:before { content: "\" }.icon-chevron-down:before { content: "\" }.icon-chevron-left:before { content: "\" }.icon-chevron-right:before { content: "\" }.icon-chevron-up:before { content: "\" }.icon-clock:before { content: "\" }.icon-close-o:before { content: "\" }.icon-close:before { content: "\" }.icon-comment:before { content: "\" }.icon-credit-card:before { content: "\" }.icon-envelope:before { content: "\" }.icon-exclamation:before { content: "\" }.icon-external-link:before { content: "\" }.icon-eye:before { content: "\" }.icon-gear:before { content: "\" }.icon-heart:before { content: "\" }.icon-image:before { content: "\" }.icon-like:before { content: "\" }.icon-link:before { content: "\" }.icon-location:before { content: "\" }.icon-lock:before { content: "\" }.icon-minus:before { content: "\" }.icon-navicon:before { content: "\" }.icon-paperclip:before { content: "\" }.icon-pencil:before { content: "\" }.icon-play:before { content: "\" }.icon-plus:before { content: "\" }.icon-pointer:before { content: "\" }.icon-question:before { content: "\" }.icon-redo:before { content: "\" }.icon-refresh:before { content: "\" }.icon-retweet:before { content: "\" }.icon-sc-facebook:before { content: "\" }.icon-sc-github:before { content: "\" }.icon-sc-google-plus:before { content: "\" }.icon-sc-instagram:before { content: "\" }.icon-sc-linkedin:before { content: "\" }.icon-sc-pinterest:before { content: "\" }.icon-sc-skype:before { content: "\" }.icon-sc-soundcloud:before { content: "\" }.icon-sc-tumblr:before { content: "\" }.icon-sc-twitter:before { content: "\" }.icon-sc-vimeo:before { content: "\" }.icon-sc-youtube:before { content: "\" }.icon-search:before { content: "\" }.icon-share-apple:before { content: "\" }.icon-share-google:before { content: "\" }.icon-star:before { content: "\" }.icon-tag:before { content: "\" }.icon-trash:before { content: "\" }.icon-trophy:before { content: "\" }.icon-undo:before { content: "\" }.icon-unlock:before { content: "\" }.icon-user:before { content: "\" }
