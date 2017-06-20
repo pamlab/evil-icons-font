@@ -31,16 +31,16 @@ gulp.task('build', () => {
             gulp.src('src/templates/font.css')
                 .pipe(consolidate('lodash', options))
                 .pipe(rename({ basename: fontName }))
-                .pipe(gulp.dest('dst/css/'));
-        
+                .pipe(gulp.dest('docs/css/'));
+
             // シンボルフォント一覧のサンプルHTMLを作成
             gulp.src('src/templates/font.html')
                 .pipe(consolidate('lodash', options))
-                .pipe(rename({ basename: 'sample' }))
-                .pipe(gulp.dest('dst/'));
+                .pipe(rename({ basename: 'index' }))
+                .pipe(gulp.dest('docs/'));
 
         })
-        .pipe(gulp.dest('dst/fonts/'));
+        .pipe(gulp.dest('docs/fonts/'));
 });
 
 gulp.task('default', ['build']);
